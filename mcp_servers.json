@@ -2,11 +2,15 @@
     "mcp_servers": {
       "time": {
         "command": "uvx",
-        "args": ["mcp-server-time", "--local-timezone=Asia/Shanghai"]
+        "args": ["mcp-server-time", "--local-timezone=Asia/Seoul"]
       },
       "ddg-search": {
         "command": "uvx",
         "args": ["duckduckgo-mcp-server"]
+      },
+      "obsidian": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\kaien\\Downloads\\REPOSITORY\\obsidian725"]
       }
     }
 }
